@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 3;
+}
+.one{
+    background-color: deepskyblue;
+    border: 5px solid red;
+    top: 60px;
+    left: 60px;
+}
+.two{
+    background-color: deepskyblue;
+    border: 5px solid red;
+    top: 60px;
+    right: 60px;
+}
+.three{
+    background-color: deepskyblue;
+    border: 5px solid red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.four{
+    background-color: deepskyblue;
+    border: 5px solid red;
+    bottom: 60px;
+    left: 60px;
+}
+.five{
+    background-color: deepskyblue;
+    border: 5px solid red;
+    bottom: 60px;
+    right: 60px;
+}
+.fon{
+    background-color: white;
+    width: 700px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    position: relative;
+}
+body{
+    background-color: lightslategray;
+    height: 100vh;
+}
+.top{
+    border-left: 5px solid red;
+    border-top: 5px solid red;
+    top: -15px;
+    left: -15px;
+    z-index: 2;
+}
+.bottom{
+    border-right: 5px solid red;
+    border-bottom: 5px solid red;
+    bottom: -15px;
+    right: -15px;
+    z-index: 1;
+}
